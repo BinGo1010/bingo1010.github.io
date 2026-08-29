@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620">
+  <defs><linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#242837"/><stop offset="1" stop-color="#171922"/></linearGradient></defs>
+  <rect width="900" height="620" fill="url(#b)"/>
+  <rect x="90" y="75" width="720" height="470" rx="28" fill="#1d202b" stroke="#3f4454" stroke-width="4"/>
+  <rect x="90" y="75" width="720" height="64" rx="28" fill="#292d3b"/><circle cx="132" cy="107" r="9" fill="#ff8f8f"/><circle cx="163" cy="107" r="9" fill="#ffd075"/><circle cx="194" cy="107" r="9" fill="#77d9a7"/>
+  <rect x="130" y="177" width="170" height="122" rx="18" fill="#2b3040"/><rect x="326" y="177" width="170" height="122" rx="18" fill="#2b3040"/><rect x="522" y="177" width="248" height="122" rx="18" fill="#2b3040"/>
+  <g font-family="Arial, sans-serif" fill="#aeb4c4"><text x="151" y="211" font-size="18">MILESTONES</text><text x="347" y="211" font-size="18">RISKS</text><text x="543" y="211" font-size="18">DELIVERY PULSE</text></g>
+  <text x="151" y="270" font-family="Arial, sans-serif" font-size="43" font-weight="700" fill="#f1f2f8">12 / 15</text><text x="347" y="270" font-family="Arial, sans-serif" font-size="43" font-weight="700" fill="#ffbc75">03</text>
+  <path d="M551 270l38-26 43 7 45-42 40 15 42-29" fill="none" stroke="#8c88ff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="130" y="330" width="640" height="170" rx="18" fill="#242836"/>
+  <g fill="#7778ff"><rect x="162" y="415" width="46" height="55" rx="8"/><rect x="232" y="380" width="46" height="90" rx="8"/><rect x="302" y="398" width="46" height="72" rx="8"/><rect x="372" y="354" width="46" height="116" rx="8"/><rect x="442" y="371" width="46" height="99" rx="8"/><rect x="512" y="340" width="46" height="130" rx="8"/><rect x="582" y="363" width="46" height="107" rx="8"/><rect x="652" y="326" width="46" height="144" rx="8"/></g>
+</svg>

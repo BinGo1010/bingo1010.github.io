@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#272a3a"/><stop offset="1" stop-color="#151720"/></linearGradient></defs>
+  <rect width="1000" height="700" fill="url(#bg)"/>
+  <g fill="none" stroke="#7778ff" stroke-width="6" opacity=".7">
+    <path d="M210 350h180M610 350h180M500 180v105M500 415v105"/>
+  </g>
+  <g fill="#1f2230" stroke="#9b9cff" stroke-width="4">
+    <rect x="365" y="285" width="270" height="130" rx="28"/>
+    <rect x="105" y="292" width="170" height="116" rx="24"/>
+    <rect x="725" y="292" width="170" height="116" rx="24"/>
+    <rect x="415" y="70" width="170" height="110" rx="24"/>
+    <rect x="415" y="520" width="170" height="110" rx="24"/>
+  </g>
+  <g fill="#f5f6ff" font-family="Arial, sans-serif" text-anchor="middle">
+    <text x="500" y="348" font-size="30" font-weight="700">CLOSED-LOOP</text><text x="500" y="383" font-size="22">PLANNING</text>
+    <text x="190" y="350" font-size="24" font-weight="700">VLM</text><text x="190" y="380" font-size="17">PERCEPTION</text>
+    <text x="810" y="350" font-size="24" font-weight="700">LLM</text><text x="810" y="380" font-size="17">REASONING</text>
+    <text x="500" y="128" font-size="21" font-weight="700">TASK GRAPH</text>
+    <text x="500" y="578" font-size="21" font-weight="700">EXECUTION</text>
+  </g>
+  <circle cx="500" cy="350" r="18" fill="#b88cff"/>
+  <g fill="#7778ff"><circle cx="312" cy="350" r="9"/><circle cx="688" cy="350" r="9"/><circle cx="500" cy="230" r="9"/><circle cx="500" cy="470" r="9"/></g>
+</svg>

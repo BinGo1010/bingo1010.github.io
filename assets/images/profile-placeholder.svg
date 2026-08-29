@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 930">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e8e7ff"/><stop offset="1" stop-color="#c8d5ff"/></linearGradient>
+    <radialGradient id="r" cx="50%" cy="30%" r="70%"><stop stop-color="#fff" stop-opacity=".8"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="800" height="930" fill="url(#g)"/>
+  <circle cx="630" cy="170" r="210" fill="url(#r)"/>
+  <path d="M0 785c166-165 310-226 428-180 118 45 236 154 372 325H0Z" fill="#5b5ce2" opacity=".2"/>
+  <circle cx="400" cy="342" r="156" fill="#f2c5a6"/>
+  <path d="M246 323c5-122 71-200 167-200 98 0 160 62 173 178-59-46-133-70-222-55-43 7-82 33-118 77Z" fill="#252938"/>
+  <path d="M322 478h156v96c0 38-35 69-78 69s-78-31-78-69Z" fill="#eab28d"/>
+  <path d="M157 930c23-206 111-329 264-329 157 0 250 123 269 329Z" fill="#171a24"/>
+  <path d="M306 614c24 54 54 80 94 80 41 0 72-27 95-82l38 23c-28 85-73 127-134 127-60 0-105-42-135-126Z" fill="#f7f8fc"/>
+  <circle cx="343" cy="345" r="8" fill="#252938"/><circle cx="461" cy="345" r="8" fill="#252938"/>
+  <path d="M356 418c28 17 58 17 88 0" fill="none" stroke="#9c624e" stroke-width="7" stroke-linecap="round"/>
+  <text x="400" y="870" text-anchor="middle" font-family="Arial, sans-serif" font-size="72" font-weight="700" letter-spacing="10" fill="#fff" opacity=".88">HC</text>
+</svg>
