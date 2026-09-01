@@ -226,7 +226,19 @@ button, a { -webkit-tap-highlight-color: transparent; }
   background: var(--surface);
   box-shadow: 0 12px 34px rgba(35, 40, 62, .04);
 }
-.education-date { margin: 0 0 44px; color: var(--accent); font-size: .78rem; font-weight: 850; letter-spacing: .1em; }
+.education-logo {
+  position: absolute;
+  top: 28px;
+  right: 28px;
+  width: 78px;
+  height: 78px;
+  padding: 7px;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: #fff;
+  object-fit: contain;
+}
+.education-date { margin: 0 0 44px; padding-right: 104px; color: var(--accent); font-size: .78rem; font-weight: 850; letter-spacing: .1em; }
 .education-card h3 { margin: 0; font-size: 1.5rem; line-height: 1.25; }
 .education-card .degree { margin: 10px 0; color: var(--text); font-weight: 760; }
 .education-card > p:not(.education-date, .degree, .education-location) { color: var(--muted); }
