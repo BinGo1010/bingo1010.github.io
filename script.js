@@ -31,6 +31,30 @@
     revealElements.forEach((element) => element.classList.add('visible'));
   }
 
+  const awardCards = document.querySelectorAll('.award-card');
+  awardCards.forEach((card) => {
+    const setFlipped = (flipped) => {
+      card.classList.toggle('is-flipped', flipped);
+      card.setAttribute('aria-pressed', String(flipped));
+      const front = card.querySelector('.award-front');
+      const back = card.querySelector('.award-back');
+      front?.setAttribute('aria-hidden', String(flipped));
+      back?.setAttribute('aria-hidden', String(!flipped));
+    };
+
+    card.addEventListener('click', () => {
+      card.classList.add('has-interacted');
+      setFlipped(!card.classList.contains('is-flipped'));
+    });
+
+    card.addEventListener('keydown', (event) => {
+      if (event.key !== 'Enter' && event.key !== ' ') return;
+      event.preventDefault();
+      card.classList.add('has-interacted');
+      setFlipped(!card.classList.contains('is-flipped'));
+    });
+  });
+
   const navLinks = [...document.querySelectorAll('.nav a')];
   const sections = navLinks
     .map((link) => document.querySelector(link.getAttribute('href')))
