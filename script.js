@@ -2,9 +2,8 @@
   const root = document.documentElement;
   const toggle = document.querySelector('.theme-toggle');
   const savedTheme = localStorage.getItem('portfolio-theme');
-  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
 
-  if (savedTheme === 'dark' || (!savedTheme && prefersDark)) {
+  if (savedTheme === 'dark') {
     root.dataset.theme = 'dark';
   }
 
