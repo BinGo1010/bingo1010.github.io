@@ -244,6 +244,8 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .education-card h3 { margin: 0; font-size: 1.5rem; line-height: 1.25; }
 .education-card .degree { margin: 10px 0; color: var(--text); font-weight: 760; }
 .education-card > p:not(.education-date, .degree, .education-location) { color: var(--muted); }
+.education-card .education-performance { margin: 12px 0 0; color: var(--text); font-size: .9rem; }
+.education-performance strong { color: var(--accent); }
 .education-location { margin: auto 0 0; padding-top: 24px; color: var(--muted); font-size: .86rem; }
 
 .patent-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
