@@ -15,6 +15,20 @@
 
   document.querySelector('#current-year').textContent = new Date().getFullYear();
 
+  document.querySelectorAll('[data-pending-video]').forEach((video) => {
+    const placeholder = video.parentElement.querySelector('.timeline-video-placeholder');
+    const showVideo = () => {
+      video.hidden = false;
+      if (placeholder) placeholder.hidden = true;
+    };
+
+    if (video.readyState >= 2) {
+      showVideo();
+    } else {
+      video.addEventListener('loadeddata', showVideo, { once: true });
+    }
+  });
+
   const revealElements = document.querySelectorAll('.reveal');
   if ('IntersectionObserver' in window) {
     const observer = new IntersectionObserver((entries, currentObserver) => {
